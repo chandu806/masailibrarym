@@ -6,8 +6,8 @@ function myBookMarks () {
     let infoDiv = document.getElementById("info")
     console.log(bookMarksData)
     if(bookMarksData == null){
-        infoDiv.innerHTML = "Nothing is added to bookmarks"
-        infoDiv.style.color = "gray" 
+        infoDiv.innerHTML = "No bookmarks"
+        infoDiv.style.color = "aquamarine" 
         infoDiv.style.fontSize = "30px"
         
     }
@@ -21,7 +21,7 @@ function myBookMarks () {
           col.style.width = "10%"
           col.style.textAlign = "center"
           col.style.border = "1px solid black"
-          col.style.background = "green"
+          col.style.background = "blue"
           col.style.color = "white"
           col.style.padding = "10px"
           row.appendChild(col);

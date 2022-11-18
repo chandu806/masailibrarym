@@ -36,10 +36,10 @@ input {
     padding:1%;
     width:30%;
     background-color: rgba(146, 201, 139, 0.664);
-    font-size: 19px;
+    font-size: 20px;
     color: rgb(148, 11, 11);
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     outline-color:  rgb(58, 231, 208);
 }
 
@@ -61,12 +61,12 @@ select{
     padding:1%;
     width:30%;
     background-color: blueviolet;
-    color: #ffff;
+    color: rgb(238, 220, 220);
 }
 
 #button{
     background-color: rgb(207, 148, 37);
-    border-radius: 5px;
+    border-radius: 4px;
     outline: none;
     border: none;
     cursor: pointer;

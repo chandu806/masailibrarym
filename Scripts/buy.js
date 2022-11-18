@@ -5,9 +5,9 @@ function buySectionData () {
     let myBooks = JSON.parse( localStorage.getItem("my-books"));
 
     if(myBooks == null){
-        infoDiv.innerHTML = "Nothing is added to bookmarks"
-        infoDiv.style.color = "gray" 
-        infoDiv.style.fontSize = "30px"
+        infoDiv.innerHTML = "No bookmarks"
+        infoDiv.style.color = "aquamarine" 
+        infoDiv.style.fontSize = "25px"
         
     }
     else{
@@ -20,7 +20,7 @@ function buySectionData () {
           col.style.width = "10%"
           col.style.textAlign = "center"
           col.style.border = "1px solid black"
-          col.style.background = "green"
+          col.style.background = "blue"
           col.style.color = "white"
           col.style.padding = "10px"
           row.appendChild(col);

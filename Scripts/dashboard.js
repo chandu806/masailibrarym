@@ -85,7 +85,7 @@ function dashboard() {
           col.style.width = "10%"
           col.style.textAlign = "center"
           col.style.border = "1px solid black"
-          col.style.background = "green"
+          col.style.background = "blue"
           col.style.color = "white"
           col.style.padding = "10px"
           if (val == "Buy") {
@@ -112,8 +112,8 @@ function dashboard() {
   
     console.log(dashBoardBooks)
     if(dashBoardBooks.length == 0){
-      infoDiv.innerHTML = "No Books are added to the storage";
-      infoDiv.style.color = "gray" 
+      infoDiv.innerHTML = "No Books ";
+      infoDiv.style.color = "aquamarine" 
       infoDiv.style.fontSize = "30px"
     }
   
@@ -128,7 +128,7 @@ function dashboard() {
         col.style.width = "10%"
         col.style.textAlign = "center"
         col.style.border = "1px solid black"
-        col.style.background = "green"
+        col.style.background = "blue"
         col.style.color = "white"
         col.style.padding = "10px"
         if (val == "Buy") {
