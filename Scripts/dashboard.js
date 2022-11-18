@@ -89,11 +89,11 @@ function dashboard() {
           col.style.color = "white"
           col.style.padding = "10px"
           if (val == "Buy") {
-          col.style.background = "red"
+          col.style.background = "pink"
             col.addEventListener("click", () => myFunction(obj));
           }
           else if(val == "BookMark"){
-              col.style.background = "#ffba01"
+              col.style.background = "purple"
               col.addEventListener("click", () => myBookmark(obj));
       
             }
@@ -132,13 +132,13 @@ function dashboard() {
         col.style.color = "white"
         col.style.padding = "10px"
         if (val == "Buy") {
-          col.style.background = "red"
+          col.style.background = "pink"
   
           col.addEventListener("click", () => myFunction(obj));
         }
   
         else if(val == "BookMark"){
-          col.style.background = "#ffba01"
+          col.style.background = "purple"
           col.addEventListener("click", () => myBookmark(obj));
   
         }

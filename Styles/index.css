@@ -45,7 +45,7 @@ input {
 
 th {
     padding: 1%;
-    background-color: brown;
+    background-color: rgb(92, 116, 26);
     border: 1px solid black;
     color: rgb(54, 42, 42);
 }
@@ -65,7 +65,7 @@ select{
 }
 
 #button{
-    background-color: rgb(207, 148, 37);
+    background-color: rgb(37, 173, 207);
     border-radius: 4px;
     outline: none;
     border: none;

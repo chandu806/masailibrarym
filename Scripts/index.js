@@ -25,7 +25,7 @@ function setBooks(){
     localStorage.setItem("book-list", JSON.stringify([...JSON.parse(localStorage.getItem("book-list") || "[]"), bookObj]))
     }
     else{
-        alert("fill all the details")
+        alert("fill details")
     }
 
 }
